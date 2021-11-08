@@ -2,10 +2,10 @@ header {
     width: 100vw;
 }
 
-.headerTitle{
+.headerTitle {
     width: 100%;
     background-color: var(--header);
-    padding: 10px 0;    
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,142 +13,141 @@ header {
 
 .headerTitle p {
     text-align: center;
-    color:white;    
-    font-size: 14px;    
+    color: white;
+    font-size: 14px;
     font-weight: bold;
     margin-left: 10px;
 }
 
-.headerTitle img{
+.headerTitle img {
     max-width: 30px;
-    height: auto;    
+    height: auto;
 }
 
 /* Inicio navbar */
 
-.fullHeader{
-    display:flex;
+.fullHeader {
+    display: flex;
     justify-content: space-between;
-    align-items: center;    
-    width: 95%;
-    margin:auto;
-} 
-
-.mainHeader{    
-    display:flex;
     align-items: center;
-    flex:1 1 60%;
-    height:70px;
+    width: 95%;
+    margin: auto;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    flex: 1 1 60%;
+    height: 70px;
 }
 
 .navbar {
-    display:flex;    
+    display: flex;
     align-items: center;
-    justify-content: flex-start;        
-    color:white;   
+    justify-content: flex-start;
+    color: white;
 }
 
-.brand-title{
-    margin:1rem 0;    
+.brand-title {
+    margin: 1rem 0;
 }
 
-.brand-title img{
+.brand-title img {
     max-width: 100%;
-    width:100px;
-    min-width: 100px;    
+    width: 100px;
+    min-width: 100px;
 }
 
 .navbar-links ul {
     margin: 0.3rem;
-    padding:0;
-    display:flex;    
+    padding: 0;
+    display: flex;
 }
 
 .navbar-links li {
-    list-style: none;    
+    list-style: none;
 }
 
-.navbar-links li a {    
+.navbar-links li a {
     text-decoration: none;
-    padding:1rem;
-    color:white;
-    display:block;
+    padding: 1rem;
+    color: white;
+    display: block;
 }
 
-.navbar-links li:hover{
-    background-color: #555;  
+.navbar-links li:hover {
+    background-color: #555;
 }
 
 .toggle-button {
-    position:absolute;
-    top:4.8rem;
+    position: absolute;
+    top: 4.8rem;
     right: 1rem;
-    display:none;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width:30px;
-    height:21px;    
+    width: 30px;
+    height: 21px;
 }
 
-.toggle-button .bar{
+.toggle-button .bar {
     height: 3px;
-    width:100%;
-    background-color: white;    
-    border-radius:10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.secondHeader{
-    display:flex;    
+.secondHeader {
+    display: flex;
     justify-content: space-evenly;
-    align-items: center;    
-    flex:1 1 40%;
+    align-items: center;
+    flex: 1 1 40%;
     width: 100%;
-    height:70px;
+    height: 70px;
 }
 
 .search {
     width: 70%;
-    display:flex;           
+    display: flex;
     align-items: center;
-    position:relative;  
+    position: relative;
 }
 
-.lupa{
-    position:absolute;
-    right:95px;    
-    color:white;
-    top:12px;
+.lupa {
+    position: absolute;
+    right: 95px;
+    color: white;
+    top: 12px;
     font-size: 17px;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.searchInput{
+.searchInput {
     height: 40px;
-    background:transparent;
-    border:1px solid #272195;
+    background: transparent;
+    border: 1px solid #272195;
     border-radius: 5px;
-    outline:none;
-    
+    outline: none;
     width: 80%;
-    margin-right: 2rem;   
-    box-sizing: border-box;   
+    margin-right: 2rem;
+    box-sizing: border-box;
     padding: 20px;
-    display:block;     
-    color:white;
-    position:relative;
+    display: block;
+    color: white;
+    position: relative;
 }
 
 
-.searchInput::placeholder{
-    color:grey;
-    
+.searchInput::placeholder {
+    color: grey;
+
 }
 
-.loginIcon{
-    display:flex;
+.loginIcon {
+    display: flex;
     align-items: center;
 }
 
@@ -157,39 +156,44 @@ header {
     margin-right: 36px;
     vertical-align: middle;
     align-self: center;
-    color:white;
-} 
+    color: white;
+}
 
-@media screen and (max-width:1045px){     
-     .toggle-button {
-        display:flex;
-    }   
-    .navbar-links {                
+@media screen and (max-width:1045px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
         width: 100%;
         height: 100vh;
-        position:absolute;
+        position: absolute;
         top: 110px;
         left: -100%;
         transition: all 1s ease;
-        background-color: white;       
-        z-index:10;
-    } 
-    .navbar-links ul {        
-        width:100%;
-        flex-direction:column;        
-        transition: all 1s ease;
-    }                  
-    .navbar-links ul li a {
-        padding:.5rem 1rem;
-        color:black;
+        background-color: white;
+        z-index: 10;
     }
-    .navbar-links.active { 
-        display:flex;
-        position:absolute;        
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        transition: all 1s ease;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        color: black;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        position: absolute;
         left: -0;
-        transition: all 1s ease;        
-    }   
-    .mainHeader{        
-        flex:0 1 0%;
-    }    
+        transition: all 1s ease;
+    }
+
+    .mainHeader {
+        flex: 0 1 0%;
+    }
 }

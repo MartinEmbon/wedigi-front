@@ -1,13 +1,27 @@
-<%- include("./partials/header") %> 
-<%- include("./partials/nav") %> 
+<%- include("./partials/header") %>
+    <%- include("./partials/nav") %>
 
-<!--Inicio Home-->
+        <!--Inicio Home-->
 
-Home
+        <section>
+            <div class="biblioteca-principal">
+
+                <div class="biblioteca">
+                    <div class="biblioteca-image biblioteca-bg"></div>
+                    <div class="biblioteca-product">
+                        <form id="bibliotecaForm">
+                            <input type="text" placeholder="Adicione seu videogame a biblioteca" name="name" required />
+                            <input type="text" placeholder="Digite a categoría" name="category" required />
+                            <input type="text" placeholder="Digite o preço" name="price" required />
+                            <button>Adicionar jogo</button>
+                            <button id="clear">Limpar local storage</button>
+                            <button id="checklocal">Ver local storage no console</button>
+                        </form>
+                        <div class="jogos"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-
-
-<!--Fim Home-->
-
-<%- include("./partials/footer") %> 
+        <%- include("./partials/footer") %>

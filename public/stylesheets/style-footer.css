@@ -1,15 +1,15 @@
-footer {    
+footer {
     width: 100%;
-    height:fit-content;
-    background:var(--footer);       
+    height: fit-content;
+    background: var(--footer);
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
     width: 95%;
     flex-wrap: wrap;
-    margin:auto;
+    margin: auto;
 }
 
 footer h5 {
@@ -17,37 +17,37 @@ footer h5 {
     color: white;
     font-weight: 600;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    text-transform: capitalize;    
-    margin:10px 0;
+    text-transform: capitalize;
+    margin: 10px 0;
 }
 
 footer a {
     text-decoration: none;
-    color:white;
+    color: white;
     text-transform: uppercase;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 11px;    
-    line-height: 20px;    
+    font-size: 11px;
+    line-height: 20px;
 }
 
 footer .institucional {
     display: flex;
-    flex-direction: column;      
+    flex-direction: column;
 }
 
 footer .ajuda {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 footer .atendimento {
     display: flex;
-    flex-direction: column;                
+    flex-direction: column;
 }
 
 footer .redes {
-    color:white;
-    margin-top: 10px;                            
+    color: white;
+    margin-top: 10px;
 }
 
 footer .redes i {
@@ -57,16 +57,16 @@ footer .redes i {
 
 footer .sigawedigi {
     display: flex;
-    flex-direction: column;        
+    flex-direction: column;
 }
 
-footer .sigawedigi .siga{
+footer .sigawedigi .siga {
     font-size: 15px;
     vertical-align: middle;
 }
 
-footer .sigawedigi .footerimg{
-    display:flex;
+footer .sigawedigi .footerimg {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 25px;
@@ -78,50 +78,51 @@ footer .sigawedigi .footerimg{
     height: 100px;
     object-fit: cover;
     margin-left: 1rem;
-    border:5px solid white;
+    border: 5px solid white;
     border-radius: 5px;
 }
+
 .footerimg img:first-child {
     margin-left: 0;
 }
 
-.footerBottom{  
-    margin-top: 4rem;        
-    font-family: Arial, Helvetica, sans-serif;    
+.footerBottom {
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 1rem;
 }
 
-.footerBottom .container{
+.footerBottom .container {
     align-items: center;
     display: flex;
 }
 
-.footerBottom .allrights .bottomTitle{
-    font-size:11px;
+.footerBottom .allrights .bottomTitle {
+    font-size: 11px;
     text-transform: uppercase;
-    color:white;    
+    color: white;
 }
 
-.footerBottom .allrights p{
-    color:white;
-    font-size: 11px;    
+.footerBottom .allrights p {
+    color: white;
+    font-size: 11px;
 }
 
-.footerBottom .cartoes img { 
-    max-width:100%;
+.footerBottom .cartoes img {
+    max-width: 100%;
     width: 40px;
     height: 40px;
     margin-left: 1rem;
 }
 
-.footerBottom .footerBottomLogos{
-    display:flex;
+.footerBottom .footerBottomLogos {
+    display: flex;
     justify-content: flex-end;
     padding-right: 25px;
 }
 
 .footerBottom .footerBottomLogos img {
-    max-width:100%;
+    max-width: 100%;
     width: auto;
     height: 30px;
     margin-left: 1rem;

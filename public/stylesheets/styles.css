@@ -1,58 +1,58 @@
 :root {
-    --header:#1db8fb;
-    --principal:#06092b;
-    --bannerCategoria:#1db8fb;
-    --button:#1aacea;
-    --footer:#030519;    
-    --secondary:#eee;
+    --header: #1db8fb;
+    --principal: #06092b;
+    --bannerCategoria: #1db8fb;
+    --button: #1aacea;
+    --footer: #030519;
+    --secondary: #eee;
 }
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background: var(--principal);
-    font-family: 'Arial', Times, serif;       
-    max-width: 100%;    
+    font-family: 'Arial', Times, serif;
+    max-width: 100%;
     width: 100%;
     height: fit-content;
 }
 
 /*Inicio Slide Principal*/
 
-.slider-principal{
+.slider-principal {
     display: flex;
-    justify-content: center;    
-    flex-wrap:wrap;
-    width: 100%;    
-    margin:auto;       
-    object-fit: contain;  
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
 }
 
-.slider {            
-    position:relative;
-    width: 100%;    
-    margin:auto;    
-    height: auto;      
-    
+.slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: auto;
+
 }
 
-.slider-image{        
+.slider-image {
     height: 450px;
     margin-bottom: 15px;
-    background-size: cover;    
+    background-size: cover;
     width: 100%;
-    position:relative;    
+    position: relative;
     object-position: 20% 100%;
 }
 
-.info-slider{
-    position:absolute;        
-    bottom:50px;
-    left:40px;        
+.info-slider {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
     text-align: left;
 }
 
@@ -62,7 +62,7 @@ body {
     letter-spacing: 0;
     margin-bottom: 1rem;
     font-weight: bolder;
-    position:relative;    
+    position: relative;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -75,36 +75,38 @@ body {
 }
 
 .info-slider span {
-    color:#1fa7e4;
+    color: #1fa7e4;
     font-weight: bolder;
 }
 
 .info-slider a {
-    background-color:var(--button);
-    border-radius:5px;
-    color:white;
-    padding: 10px 0;    
-    text-align:center;
+    background-color: var(--button);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
     width: 50%;
-    display:inline-block;
+    display: inline-block;
     text-decoration: none;
-    text-transform:none;
+    text-transform: none;
 }
 
 .slider-1 {
-    background-image: url("/images/banner-red-uv.jpg");       
+    background-image: url("/images/banner-red-uv.jpg");
     background-repeat: no-repeat;
-    background-position:center top;
+    background-position: center top;
     background-size: cover;
 }
+
 .slider-2 {
-    background-image: url("/images/banner-resident.jpg");        
+    background-image: url("/images/banner-resident.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .slider-3 {
-    background-image: url("/images/banner-hitman.jpg");        
+    background-image: url("/images/banner-hitman.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,168 +117,176 @@ body {
 
 .titulos-destacados {
     width: 95%;
-    margin:auto;
+    margin: auto;
     margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
-.titulos-destacados h1{
-    position:relative;
+.titulos-destacados h1 {
+    position: relative;
     text-align: left;
-    color:white;
+    color: white;
     font-weight: bold;
     padding-left: 2rem;
 }
 
-.titulos-destacados h1::before{
-    content:" ";
+.titulos-destacados h1::before {
+    content: " ";
     margin-left: .8rem;
-    position:absolute;
+    position: absolute;
     width: 5px;
-    height:30px;    
-    background-color:#272195;
-    top:0;
-    left:0;
+    height: 30px;
+    background-color: #272195;
+    top: 0;
+    left: 0;
 }
 
 /*Titulos destacados*/
 
 /*Destaques da Semana*/
 
-.destaques-container{
-    display:flex;
+.destaques-container {
+    display: flex;
     width: 95%;
     justify-content: space-between;
     margin-bottom: 1rem;
     flex-wrap: wrap;
-    margin:auto; 
+    margin: auto;
 }
 
-.card-destaque{    
+.card-destaque {
     width: 220px;
     height: auto;
     margin: 5px;
-    border-radius:5px;
-    object-fit:cover;
+    border-radius: 5px;
+    object-fit: cover;
     object-position: center;
     background-position: center center;
-    position:relative;
+    position: relative;
 }
 
 .newsResident {
     position: absolute;
-    top:16px;
-    left:15px;
+    top: 16px;
+    left: 15px;
     background: #ffbf00;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 20px;
 }
 
 .newsHitman {
     position: absolute;
-    top:16px;
-    left:5px;
+    top: 16px;
+    left: 5px;
     background: #ff0000;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 20px;
 }
 
 .newsAge {
     position: absolute;
-    top:16px;
-    left:5px;
+    top: 16px;
+    left: 5px;
     background: #1db8fb;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 20px;
 }
 
 .newsStray {
     position: absolute;
-    top:16px;
-    left:5px;
+    top: 16px;
+    left: 5px;
     background: #ffbf00;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 20px;
 }
 
 .newsDeath {
     position: absolute;
-    top:16px;
-    left:5px;
+    top: 16px;
+    left: 5px;
     background: #1db8fb;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 20px;
 }
 
-.destaque-image{    
-    height:270px;
+.destaque-image {
+    height: 270px;
     margin-bottom: 15px;
     background-position: center center;
-    object-fit:cover;
+    object-fit: cover;
     object-position: center;
-    border-radius:5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-destaque h3 {
-    text-align:center;
-    color:white;
-    font-size: 14px;    
+    text-align: center;
+    color: white;
+    font-size: 14px;
 }
 
 .card-destaque h2 {
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     font-weight: bold;
     margin-bottom: 0.3rem;
 }
+
 .card-destaque .payment {
-    text-align:center;
+    text-align: center;
     font-size: 13px;
-    color:grey;
+    color: grey;
     text-decoration: line-through;
 }
+
 .card-destaque p {
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     font-size: 16px;
 }
 
 .card-destaque .juros {
-    text-align:center;
+    text-align: center;
     font-size: 13px;
-    color:grey;    
+    color: grey;
 }
 
-.destaque-1, .destaque-2,
-.destaque-3, .destaque-4, .destaque-5 {
+.destaque-1,
+.destaque-2,
+.destaque-3,
+.destaque-4,
+.destaque-5 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .destaque-1 {
-    background-image: url("/images/game-resident.jpg");    
+    background-image: url("/images/game-resident.jpg");
 }
+
 .destaque-2 {
-    background-image: url("/images/destaque-hitman.jpg");        
+    background-image: url("/images/destaque-hitman.jpg");
 }
 
 .destaque-3 {
-    background-image: url("/images/game-age.jpg");    
+    background-image: url("/images/game-age.jpg");
 }
+
 .destaque-4 {
-    background-image: url("/images/footer-stray.png");    
+    background-image: url("/images/footer-stray.png");
 }
+
 .destaque-5 {
     background-image: url("/images/game-death.jpg");
 }
@@ -285,40 +295,43 @@ body {
 
 /*Busque por plataforma*/
 
-.plataforma-container{
-    display:flex;
+.plataforma-container {
+    display: flex;
     width: 95%;
     justify-content: space-between;
     margin-bottom: 1rem;
     flex-wrap: wrap;
-    margin:auto;    
+    margin: auto;
 }
 
-.plataforma-destaque{    
-    width:250px;                
-    border-radius:5px;
-    object-fit:cover;    
-    margin:auto;    
-    border-radius:5px;
+.plataforma-destaque {
+    width: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 5px;
 }
 
-.plataforma-image{    
-    height: 200px;        
-    border-radius:5px;
-    background-size:contain;
+.plataforma-image {
+    height: 200px;
+    border-radius: 5px;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .plataforma-1 {
-    background-image: url("/images/plataf-play.png");    
-    border-radius:5px;
+    background-image: url("/images/plataf-play.png");
+    border-radius: 5px;
 }
+
 .plataforma-2 {
     background-image: url("/images/plataf-xbox.png");
 }
+
 .plataforma-3 {
     background-image: url("/images/plataf-wii.png");
 }
+
 .plataforma-4 {
     background-image: url("/images/plataf-pc.png");
 }
@@ -326,45 +339,45 @@ body {
 /*Busque por plataforma*/
 
 /*Inicio Banner Titular (Farcry)*/
-.banner-titular{
+.banner-titular {
     display: flex;
-    justify-content: center;    
-    flex-wrap:wrap;
-    width: 95%;    
-    margin:auto;        
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
 }
 
-.banner {            
-    position:relative;
-    width: 100%;    
-    margin:auto;    
+.banner {
+    position: relative;
+    width: 100%;
+    margin: auto;
     height: auto;
     padding: 0 .5rem;
-    border-radius: 5px;            
+    border-radius: 5px;
 }
 
-.info-banner{
-    position:absolute;        
-    top:120px;
-    right:80px;        
+.info-banner {
+    position: absolute;
+    top: 120px;
+    right: 80px;
     text-align: right;
 }
 
-.banner-image{        
+.banner-image {
     height: 450px;
     margin-bottom: 15px;
-    background-size: cover;    
+    background-size: cover;
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 .emBreve {
     position: absolute;
-    top:10px;
-    left:30px;
+    top: 10px;
+    left: 30px;
     background: #06092b;
-    color:white;
-    font-size: 12px;    
+    color: white;
+    font-size: 12px;
     border-radius: 10px;
     padding: 5px 15px;
 }
@@ -374,18 +387,18 @@ body {
     color: #06092b;
     margin-bottom: 1rem;
     font-weight: bolder;
-    position:relative;    
+    position: relative;
     text-align: right;
 }
 
 .info-banner h2:after {
     position: absolute;
-    content: ' ';    
+    content: ' ';
     width: 30px;
-    background-color: #546ebd;        
-    height: 4px;      
-    top: 40px; 
-    right:235px;
+    background-color: #546ebd;
+    height: 4px;
+    top: 40px;
+    right: 235px;
 }
 
 .info-banner p {
@@ -397,54 +410,54 @@ body {
 
 
 .info-banner a {
-    background-color:var(--button);
-    border-radius:5px;
-    color:white;
-    padding: 10px 0;    
-    text-align:center;
+    background-color: var(--button);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
     width: 40%;
-    display:inline-block;
+    display: inline-block;
     text-decoration: none;
-    text-transform:none;
+    text-transform: none;
 }
 
 .banner-1 {
-    background-image: url("/images/farcry.jpg");    
-    border-radius: 5px;        
+    background-image: url("/images/farcry.jpg");
+    border-radius: 5px;
 }
 
 /*Fim Banner Titular (Farcry)*/
 
 /*Inicio cards nostalgia e olimpiadas*/
 
-.cards{
+.cards {
     display: flex;
-    justify-content: center;    
-    flex-wrap:wrap;
-    width: 95%;    
-    margin:auto;   
-    margin-top: 4rem;    
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-top: 4rem;
 }
 
-.card {            
-    position:relative;
-    width: 50%;    
-    margin:auto;    
+.card {
+    position: relative;
+    width: 50%;
+    margin: auto;
     height: auto;
     padding: 0 .5rem;
-    border-radius: 5px;            
+    border-radius: 5px;
 }
 
-.information{
-    position:absolute;        
-    bottom:50px;
-    left:40px;    
+.information {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
 }
 
-.card-image{        
+.card-image {
     height: 450px;
     margin-bottom: 15px;
-    background-size: cover;    
+    background-size: cover;
     width: 100%;
 }
 
@@ -453,17 +466,17 @@ body {
     color: white;
     margin-bottom: 2rem;
     font-weight: bolder;
-    position:relative;
+    position: relative;
 }
 
 .information h2:after {
     position: absolute;
-    content: ' ';    
+    content: ' ';
     width: 50px;
-    background-color: #1db8fb;        
-    height: 4px;      
-    bottom: -5px; 
-    left:0;
+    background-color: #1db8fb;
+    height: 4px;
+    bottom: -5px;
+    left: 0;
 }
 
 .information p {
@@ -473,31 +486,31 @@ body {
 }
 
 .information a {
-    background-color:var(--button);
-    border-radius:5px;
-    color:white;
-    padding: 10px 0;    
-    text-align:center;
+    background-color: var(--button);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
     width: 40%;
-    display:inline-block;
+    display: inline-block;
     text-decoration: none;
-    text-transform:none;
+    text-transform: none;
 }
 
 .card-1 {
-    background-image: linear-gradient(to bottom, rgba(252, 253, 253,.1), rgb(155, 201, 216,0.2), rgba(70, 61, 194, 0.3), rgb(0, 87, 165,0.7), rgb(6, 21, 120,0.9)),url("/images/mario-kart-tour.jpg");    
-    border-radius: 5px;        
+    background-image: linear-gradient(to bottom, rgba(252, 253, 253, .1), rgb(155, 201, 216, 0.2), rgba(70, 61, 194, 0.3), rgb(0, 87, 165, 0.7), rgb(6, 21, 120, 0.9)), url("/images/mario-kart-tour.jpg");
+    border-radius: 5px;
 }
 
 .card-2 {
-    background-image: linear-gradient(to bottom, rgba(252, 253, 253,.1), rgb(155, 201, 216,0.2), rgb(70, 61, 194,0.3), rgb(0, 87, 165,0.7), rgb(6, 21, 120,0.9)),url("/images/fifa.jpeg");    
-    border-radius: 5px;        
+    background-image: linear-gradient(to bottom, rgba(252, 253, 253, .1), rgb(155, 201, 216, 0.2), rgb(70, 61, 194, 0.3), rgb(0, 87, 165, 0.7), rgb(6, 21, 120, 0.9)), url("/images/fifa.jpeg");
+    border-radius: 5px;
 }
 
-@media screen and (max-width:900px){
-    .cards{
+@media screen and (max-width:900px) {
+    .cards {
         flex-direction: column;
-        margin:auto;
+        margin: auto;
         width: 100%;
     }
 }
@@ -505,6 +518,6 @@ body {
 /*Fin cards nostalgia e olimpiadas*/
 
 .row-gap-main {
-    margin:2rem 0;
+    margin: 2rem 0;
     height: 30px;
 }
