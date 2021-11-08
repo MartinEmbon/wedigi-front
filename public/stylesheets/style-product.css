@@ -1,0 +1,194 @@
+/*Inicio Slide Principal*/
+.product-page-principal{
+    display: flex;
+    justify-content: center;    
+    flex-wrap:wrap;
+    width: 100%;    
+    margin:auto;       
+    object-fit: contain;  
+}
+
+.product-page {            
+    position:relative;
+    width: 100%;    
+    margin:auto;    
+    height: auto;          
+}
+
+.product-image{        
+    height: 470px;    
+    background-size: cover;    
+    width: 100%;
+    position:relative;    
+    object-position: 20% 100%;
+}
+
+.info-product{
+    position:absolute;        
+    bottom:50px;
+    left:40px;        
+    text-align: left;
+    width: 35%;
+}
+
+.info-product h2 {
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    position:relative;    
+    text-align: left;
+}
+
+.info-product h2:after {
+    position: absolute;
+    content: ' ';    
+    width: 30px;
+    background-color: #272195;        
+    height: 4px;      
+    top: 40px; 
+    left:0;
+}
+
+.info-product p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.info-product a {
+    background-color:var(--button);
+    border-radius:5px;
+    color:white;
+    padding: 10px 0;    
+    text-align:center;
+    width: 50%;
+    display:inline-block;
+    text-decoration: none;
+    text-transform:none;
+}
+
+.product-1 {
+    background-image: url("/images/product-banner-resident.jpg");       
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+}
+.product-2 {
+    background-image: url("/images/banner-hitman.jpg");       
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+}
+.product-3 {
+    background-image: url("/images/banner-red-uv.jpg");       
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+}
+
+/*Product Slider*/
+.second-owl {
+    width: 80px;
+    border-radius: 5px;
+}
+.product-item {
+    padding: 1rem;
+}
+.owl-product-slider {
+    background-color: var(--header);
+}
+
+/*Product Slider*/
+
+/*Product Description*/
+.description-container {    
+    width: 95%;
+    margin:auto;
+    margin-top: 2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;        
+}
+
+.main-desc {
+    width: 60%;        
+}
+
+.main-desc h2,
+.main-details h2 {
+    color:white;
+    font-weight: bold;
+    position:relative;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.titulo-produto-destacado::before{
+    content:" ";
+    margin-left: .8rem;
+    position:absolute;
+    width: 5px;
+    height:30px;    
+    background-color:#272195;
+    top:0;
+    left:0;
+}
+.main-desc p {
+    color: white;
+    width: 95%;
+    font-size: 13px;
+    margin-left: 1rem;
+}
+
+.main-details {
+    width: 50%;    
+}
+
+.game-details {
+    display:flex;    
+    margin-left: 1rem;
+    
+}
+
+.general-details {
+    color:white;
+    font-size: 13px;        
+    width: 30%;
+    line-height: 30px;
+}
+
+.description-details {
+    margin-left: 1rem;
+    width: 70%;    
+    color:white;
+    font-size: 13px;    
+    line-height: 30px;    
+}
+
+.voz, .idioma {
+    width: 60%;        
+}
+
+
+@media screen and (max-width:900px) {
+    .description-container {
+        flex-direction: column;
+        margin:auto;        
+    }
+    .main-details {
+        width: 100%;
+        margin:auto;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+.row-gap-product {
+    margin:2rem 0;
+    height: 30px;
+}

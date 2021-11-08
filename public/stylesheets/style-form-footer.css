@@ -1,0 +1,122 @@
+.formContainer{    
+    display:flex;
+    vertical-align: middle;
+    align-items: center;
+    width:100%;
+    background:var(--footer);
+    height: 200px;        
+    position:relative;
+    margin-bottom: 4rem;
+} 
+
+.formContainer::after{
+    content:"";
+    position:absolute;    
+    height:1px;
+    width:94%;    
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-top:1px solid #151355;     
+}
+
+.formAll{
+    width: 95%;
+    margin:auto;    
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.leftText{    
+    width:40%;       
+}
+
+.leftText h3 {
+    color:white;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.leftText p{
+    color:#424452;
+    font-size:.9rem;
+    letter-spacing: .5px;
+}
+
+.formStyle{    
+    display:flex;    
+    align-items: center;
+    width: 80%;  
+    margin:0 2rem;           
+}
+
+.emailInput{        
+    height: 30px;    
+    padding:20px;        
+    outline:none;
+    border:none;
+    background-color: transparent;
+    border: 1.5px solid #151355;
+    border-radius:10px;
+    color:white;
+    margin-left:.5rem;
+    font-size: 12px;
+    width:100%;
+}
+
+input[type="email"]::placeholder,
+input[type="text"]::placeholder{
+    color:#2b2d41;
+    font-weight: bold;
+    letter-spacing: .5px;    
+    opacity:1;    
+    overflow: visible;   
+}
+
+
+.btnSend{                
+    padding:20px;
+    outline:none;    
+    cursor: pointer;
+    margin-left:1rem;
+    background-color: #4839ff;
+    border-radius: 10px;
+    border:none;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    width:100%;    
+    color:white;
+    font-weight: bolder;
+    font-size:1rem;
+    height: 30px;    
+}
+
+@media screen and (max-width:1060px){
+    .formAll{
+        margin-top:.5rem;
+        margin-bottom:1rem;
+    }
+    .formContainer{
+        flex-direction: column;
+        height: fit-content;        
+    }    
+    .leftText{
+        text-align:left;
+        padding:0;
+        margin:0;
+        width:90%;
+    }
+    .formStyle {
+        flex-direction: column;
+    }    
+    .emailInput{
+        margin-bottom: 1rem;
+        margin-left:0;
+    }
+    .btnSend{
+        margin:auto;                
+        
+    }
+}
