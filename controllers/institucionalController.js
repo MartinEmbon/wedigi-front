@@ -1,6 +1,6 @@
 const institucionalController = {
     index:(req,res)=>{
-        return res.render("home",{title:"Desafio We.digi"})
+        return res.render("index",{title:"Desafio We.digi"})
     },
     acao:(req,res)=>{
         return res.render("acao",{title:"Desafio We.digi"})
