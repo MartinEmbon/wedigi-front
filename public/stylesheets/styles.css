@@ -41,22 +41,35 @@ body {
 
 }
 
-.slider-image {
-    height: 450px;
-    margin-bottom: 15px;
-    background-size: cover;
-    width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-    position: relative;
-    
-}
-
 .info-slider {
     position: absolute;
     bottom: 50px;
     left: 40px;
     text-align: left;
+}
+
+.slider-image {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    background-size: cover;   
+}
+
+.slider-1 {
+    background-image: url("/images/red-wall.jpg");
+    background-position: 50%;
+}
+
+.slider-2 {
+    background-image: url("/images/product-banner-resident.jpg");
+    
+    
+}
+
+.slider-3 {
+    background-image: url("/images/banner-hitman.jpg");
 }
 
 .info-slider h2 {
@@ -95,32 +108,6 @@ body {
     text-decoration: none;
     text-transform: none;
 }
-
-.slider-1 {
-    background-image: url("/images/red-wall.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-    
-}
-
-.slider-2 {
-    background-image: url("/images/banner-resident.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.slider-3 {
-    background-image: url("/images/banner-hitman.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 
 /*Titulos destacados*/
 

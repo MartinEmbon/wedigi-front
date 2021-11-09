@@ -15,14 +15,6 @@
     height: auto;
 }
 
-.product-image {
-    height: 470px;
-    background-size: cover;
-    width: 100%;
-    position: relative;
-    object-position: 20% 100%;
-}
-
 .info-product {
     position: absolute;
     bottom: 50px;
@@ -69,27 +61,6 @@
     display: inline-block;
     text-decoration: none;
     text-transform: none;
-}
-
-.product-1 {
-    background-image: url("/images/product-banner-resident.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-}
-
-.product-2 {
-    background-image: url("/images/banner-hitman.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-}
-
-.product-3 {
-    background-image: url("/images/red-wall.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
 }
 
 /*Product Slider*/
