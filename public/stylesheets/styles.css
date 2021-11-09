@@ -45,8 +45,10 @@ body {
     margin-bottom: 15px;
     background-size: cover;
     width: 100%;
+    object-fit: cover;
+    object-position: bottom;
     position: relative;
-    object-position: 20% 100%;
+    
 }
 
 .info-slider {
@@ -96,6 +98,10 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    
 }
 
 .slider-2 {
@@ -401,6 +407,7 @@ body {
     right: 235px;
 }
 
+
 .info-banner p {
     font-size: 15px;
     color: white;
@@ -424,6 +431,8 @@ body {
 .banner-1 {
     background-image: url("/images/farcry.jpg");
     border-radius: 5px;
+    
+    background-size: cover;
 }
 
 /*Fim Banner Titular (Farcry)*/
@@ -513,8 +522,47 @@ body {
         margin: auto;
         width: 100%;
     }
+    .card {
+        width: 95%;
+        margin:auto;
+    }
+    .destaques-container{
+        margin:auto;
+    }
+    .card-destaque {
+        margin:auto;
+        margin-bottom: 1rem;
+    }    
 }
 
+@media screen and (max-width:720px){
+    .slider-image{
+        width: 100%;
+        height:400px;
+        background-position: left;
+        object-position: left;
+    }
+    .slider-1 {
+        width: 100%;                
+        height:400px;
+        object-fit: cover;
+        background-position: left center;
+
+    }
+    .slider-2,
+    .slider-3 {            
+        width: 100%;
+        height:400px;
+        background-position: left;
+        object-position: left;
+    }
+}
+
+@media screen and (max-width:450px){
+    .info-banner {
+        right:20px;        
+    }
+}
 /*Fin cards nostalgia e olimpiadas*/
 
 .row-gap-main {
