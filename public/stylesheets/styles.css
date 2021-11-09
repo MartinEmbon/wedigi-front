@@ -13,9 +13,7 @@
     box-sizing: border-box;
 }
 
-.fixed{
-    padding-top: 3rem;
-}
+
 body {
     background: var(--principal);
     font-family: 'Arial', Times, serif;
