@@ -305,41 +305,26 @@ body {
     display: flex;
     width: 95%;
     justify-content: space-between;
-    margin-bottom: 1rem;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 2.5rem;    
 }
 
 .plataforma-destaque {
-    width: 250px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;    
+    margin: auto;    
+    width: 100%;    
+    margin-bottom: 0.05rem;
+}
+
+.plataforma-destaque img {
+    width:250px;                
     border-radius: 5px;
-    object-fit: cover;
-    margin: auto;
-    border-radius: 5px;
-}
-
-.plataforma-image {
-    height: 200px;
-    border-radius: 5px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.plataforma-1 {
-    background-image: url("/images/plataf-play.png");
-    border-radius: 5px;
-}
-
-.plataforma-2 {
-    background-image: url("/images/plataf-xbox.png");
-}
-
-.plataforma-3 {
-    background-image: url("/images/plataf-wii.png");
-}
-
-.plataforma-4 {
-    background-image: url("/images/plataf-pc.png");
+    margin-left: 10px;
+    margin-bottom:1rem;        
 }
 
 /*Busque por plataforma*/
@@ -529,8 +514,7 @@ body {
     .destaques-container{
         margin:auto;
     }
-    .card-destaque {
-        margin:auto;
+    .card-destaque {        
         margin-bottom: 1rem;
     }    
 }
