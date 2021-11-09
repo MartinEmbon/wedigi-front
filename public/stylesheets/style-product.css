@@ -8,6 +8,10 @@
     object-fit: contain;
 }
 
+.banner-product {
+    height: 500px;
+}
+
 .product-page {
     position: relative;
     width: 100%;

@@ -120,13 +120,11 @@ header {
 
 .lupa {
     position: absolute;
-    right: 95px;
+    right: 125px;
     color: white;
     top: 12px;
     font-size: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .searchInput {
