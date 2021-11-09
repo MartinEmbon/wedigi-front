@@ -172,3 +172,10 @@
     }
 
 }
+
+@media screen and (max-width:580px){
+    #bibliotecaForm{
+        display:flex;
+        flex-direction: column;
+    }
+}
