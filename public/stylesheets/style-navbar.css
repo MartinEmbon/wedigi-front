@@ -118,14 +118,21 @@ header {
     position: relative;
 }
 
-.lupa {
-    position: absolute;
-    right: 125px;
+.search::after {
+    font-family: 'FontAwesome';
     color: white;
-    top: 12px;
+    position: relative;
+    left: -60px;
+    content: "\f002";
     font-size: 17px;
-
 }
+
+/* .lupa {
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 12px;    
+} */
 
 .searchInput {
     height: 40px;
@@ -141,6 +148,7 @@ header {
     color: white;
     position: relative;
 }
+
 
 
 .searchInput::placeholder {
